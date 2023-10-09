@@ -1,0 +1,32 @@
+.navbar {
+    list-style: none;
+    display: flex;
+    text-decoration:none;
+    color:wheat;
+    position:sticky;
+}
+.nav-item a{
+    list-style: none;
+    text-decoration: none;
+    padding: 20px 25px;
+    color:white;
+    display:block;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.nav-item a:hover{
+    color:sienna;
+    transition:all 0.30s ease-in-out;
+}
+.nav-item a:active {
+    color: sienna;
+}
+.row{
+    background-color: peru;
+    height: 100px;
+}
+
+.navbar .navbar-expand-sm .navbar-light{
+    height:100px;
+}
