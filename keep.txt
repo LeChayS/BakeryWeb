@@ -1,0 +1,20 @@
+<div class="col-lg-2">1</div>
+  <div class="col-lg-1"><img src="#" alt="Logo" /></div>
+  <div class="col-lg-4">
+    <ul class="navbar">
+      <li class="nav-item"><a href="Home.cshtml">Trang chủ</a></li>
+      <li class="nav-item"><a href="Home.cshtml">Sản phẩm</a></li>
+      <li class="nav-item"><a href="Home.cshtml">Tin tức</a></li>
+      <li class="nav-item"><a href="Home.cshtml">Liên hệ</a></li>
+    </ul>
+  </div>
+  <div class="col-lg-3">fd</div>
+  <div class="col-lg-2">fd</div>
+
+
+
+git add . 
+git commit -m " "
+git push
+
+git pull
