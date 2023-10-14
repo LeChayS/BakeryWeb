@@ -48,3 +48,10 @@ git push origin master (guess)
 
 lấy code xuống
 git pull
+
+
+
+<img src="media/1.jpg" alt="cup" style="height: auto;width: 100%;" class="bgnav">
+.bgnav{
+    position:relative;
+}
