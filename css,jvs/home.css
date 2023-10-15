@@ -1,3 +1,4 @@
+/*background trên*/
 .resbg{
     width: 100%;
     height: auto;
@@ -52,8 +53,6 @@
     box-sizing: border-box;
     border: 10px solid #cd9b32;
 }
-
-
 .btnXem{
     /* position: absolute;
     top: 50%;
@@ -82,12 +81,28 @@
     background-color:peru;
 }
 
-
-
+/*container sd chung*/
 .container {
     position: relative;
     width: 100%;
 }
+.col-lg-3{
+    padding:10px 0 0 10px; 
+}
+/*h2,divider sd chung*/
+.nameh2{
+    text-align:center;
+    padding:20px;
+}
+.dvdimg{
+    position:relative;
+    left:40%;
+    width:20%;
+    height:50px;
+}
+
+
+/*phần bán chạy*/
 .img {
     opacity: 1;
     display: block;
@@ -109,7 +124,6 @@
 .boxtext:hover{
     opacity:0.3;
 }
-
 .text {
     background-color: wheat;
     color: saddlebrown;
@@ -123,16 +137,11 @@
 .col-lg-3:hover .boxtext{
     opacity:1;
 }
-.col-lg-3{
-    padding:10px 0 0 10px; 
-}
 
-.nameh2{
-    text-align:center;
-    padding:20px;
-}
+
+/*phần dm bánh*/
 .box-text{
-    position: relative;
+    
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: #f1f1f1;
@@ -143,24 +152,28 @@
     border-end-start-radius: 10px;
     transform: translate(0,-100%);
     text-align: center;
+    transition: .5s;
 }
-
-.col-lg-3:hover .boximg{
-    transform: scale(1.04);
-}
-.col-lg-3:hover .box-text{
-    transform: scale(1.04);
-    display: block;
-    width: 100%;
-    transform: translate(0,-100%);
-}
-
 .boximg{
     display: block;
     width: 100%;
     height: auto;
+    min-height: 450px;
+    max-height:450px;
     transition: .5s ease;
     backface-visibility: hidden;
     border-radius: 10px;
-/*chinh co dinh co hinh*/
+    transition: transform .2s;
 }
+.col-lg-3:hover .boximg{
+    transform: scale(1.04);
+    transition: all 0.3s linear;
+}
+.col-lg-3:hover .box-text{
+    transform: scale(1.04);
+    width: 100%;
+    background-color:peru;
+}
+
+
+
