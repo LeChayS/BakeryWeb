@@ -96,7 +96,6 @@
 }
 .dvdimg{
     position:relative;
-    left:40%;
     width:20%;
     height:50px;
 }
@@ -137,11 +136,23 @@
 .col-lg-3:hover .boxtext{
     opacity:1;
 }
+.bestSell{
+    text-align: center;
+    border-color: #cd9b32;
+    border-width: 10px;
+    border-style: double;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
 
 
 /*phần dm bánh*/
+.listCake{
+    text-align: center;
+    padding: 20px;
+}
 .box-text{
-    
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: #f1f1f1;
@@ -173,6 +184,11 @@
     transform: scale(1.04);
     width: 100%;
     background-color:peru;
+}
+
+/*phần news*/
+.news{
+    text-align: center;
 }
 
 
