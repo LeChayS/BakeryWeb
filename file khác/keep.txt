@@ -51,12 +51,6 @@ git pull
 
 
 
-<img src="media/1.jpg" alt="cup" style="height: auto;width: 100%;" class="bgnav">
-.bgnav{
-    position:relative;
-}
-
-
 <nav class="navbar navbar-expand-sm navbar-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="#" alt="Logo"></a>
@@ -77,5 +71,84 @@ git pull
     </nav>
     
     .navbar{
-    background-color: peru;
+    background-color: peru;}
+
+
+<header class="header">
+  <nav class="navbar navbar-expand-sm " style="background-color: peru;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="media/demologo.jpg" alt="Logo" style="width: 100px;" class="rounded-pill"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Trang chủ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Sản phẩm</a>
+            <ul class="dropdown-menu">
+              <li><a href="#" class="dropdown-item">Banh1</a></li>
+              <li><a href="#" class="dropdown-item">Banh2</a></li>
+              <li><a href="#" class="dropdown-item">Banh3</a></li>
+              <li><a href="#" class="dropdown-item">Banh4</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tin tức</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Liên hệ</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Tìm kiếm...">
+          <button class="btn btn-primary" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+/* .nav-item a{
+    list-style: none;
+    text-decoration: none;
+    padding: 20px 25px;
+    color:white;
+    display:block;
+    font-size: 20px;
+    font-weight: 700;
 }
+.nav-item a:hover{
+    color:sienna;
+    transition:all 0.30s ease-in-out;
+}
+.nav-item a:active {
+    color: sienna;
+} */
+
+
+/*nav cũ
+.row{
+    background-color: peru;
+    height: auto;
+}
+
+.form-control{
+    border-radius: 3px;
+}
+
+.nav-link{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 20px;
+}
+.nav-item a:hover{
+    color:sienna;
+    transition:all 0.30s ease-in-out;
+}
+
+.dropdown-menu{
+    float: right;
+}*/
