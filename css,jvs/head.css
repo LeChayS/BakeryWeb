@@ -29,6 +29,7 @@ a {
   text-decoration: none;
   font-size: 30px;
   padding: 10px;
+  font-family: 'Comfortaa', sans-serif;
 }
 .nav .logo {
   font-size: 22px;
@@ -172,7 +173,7 @@ a {
     cursor: pointer;
   }
   .nav .search-box {
-    top: calc(100% + 10px);
+    top: calc(33% + 10px);
     max-width: calc(100% - 20px);
     right: 50%;
     transform: translateX(50%);
@@ -180,6 +181,18 @@ a {
   }
 }
 
+
+.dropdown{
+  
+  background-color: white;
+}
+.dropdown a{
+  color: black;
+}
+
+.dropdown-content:hover .dropdown{
+  opacity: 1;
+}
 
 
 

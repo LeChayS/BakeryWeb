@@ -201,8 +201,19 @@ font-family: 'Playpen Sans', cursive;*/
 }
 
 /*phần news*/
-.news{
+.news .news-content{
     text-align: center;
+    border-color: #cd9b32;
+    border-width: 10px;
+    border-style: double;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.dropdown a{
+    color: black;
+    background-color: peru;
 }
 
 
