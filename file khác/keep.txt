@@ -152,3 +152,133 @@ git pull
 .dropdown-menu{
     float: right;
 }*/
+
+
+<div class="container">
+		<h3 class="title-index">
+			<a class="title-name" href="tin-tuc" title="Tin tức mới nhất">Tin tức mới nhất
+			</a>
+				<img width="202" height="20" class="lazyload loaded" src="//bizweb.dktcdn.net/100/492/035/themes/919334/assets/title.png?1694745247263" data-src="//bizweb.dktcdn.net/100/492/035/themes/919334/assets/title.png?1694745247263" alt="title" data-was-processed="true">
+		</h3>
+		<div class="block-blog">
+			<div class="blog-swiper swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events" style="cursor: grab;">
+				<div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
+					<div class="swiper-slide swiper-slide-active" style="width: 335px; margin-right: 20px;">
+						<div class="item-blog">
+	<div class="block-thumb">	
+		<a class="thumb" href="/donut-chi-tu-8k-tai-dola" title="Donut chỉ từ 8k tại Dola">
+			<img class="lazyload loaded" src="https://bizweb.dktcdn.net/100/492/035/articles/243062617-6096832187058353-42980.png?v=1692242235353" data-src="https://bizweb.dktcdn.net/100/492/035/articles/243062617-6096832187058353-42980.png?v=1692242235353" alt="Donut chỉ từ 8k tại Dola" data-was-processed="true">
+		</a>	
+		<div class="time-post">
+			17/08/2023
+		</div>
+	</div>
+	<div class="block-content">
+		<h3>
+			<a class="line-clamp line-clamp-1" href="/donut-chi-tu-8k-tai-dola" title="Donut chỉ từ 8k tại Dola">Donut chỉ từ 8k tại Dola</a>
+		</h3>
+		<p class="justify line-clamp line-clamp-3">&nbsp;Nhắc đến bánh Donut, dân sành thưởng thức hẳn không còn xa lạ gì với món ăn vặt rất phổ biến ở các nước phương Tây này. Dù có nguồn...
+		</p>
+	</div>
+</div>
+					</div>
+					<div class="swiper-slide swiper-slide-next" style="width: 335px; margin-right: 20px;">
+						<div class="item-blog">
+	<div class="block-thumb">
+		<a class="thumb" href="/croissant-ngan-lop-da-dang-cach-thuong-thuc" title="Croissant ngàn lớp - đa dạng cách thưởng thức">
+			<img class="lazyload loaded" src="https://bizweb.dktcdn.net/100/492/035/articles/banner-trang-chu-1rs-64a539e43a5.png?v=1692242153870" data-src="https://bizweb.dktcdn.net/100/492/035/articles/banner-trang-chu-1rs-64a539e43a5.png?v=1692242153870" alt="Croissant ngàn lớp - đa dạng cách thưởng thức" data-was-processed="true">
+		</a>	
+		<div class="time-post">
+			17/08/2023
+		</div>
+	</div>
+	<div class="block-content">
+		<h3>
+			<a class="line-clamp line-clamp-1" href="/croissant-ngan-lop-da-dang-cach-thuong-thuc" title="Croissant ngàn lớp - đa dạng cách thưởng thức">Croissant ngàn lớp - đa dạng cách thưởng thức</a>
+		</h3>
+		<p class="justify line-clamp line-clamp-3">&nbsp;Những chiếc bánh sừng bò với hương bơ thơm béo đặc trưng lại còn đưa miệng với độ giòn xốp, dai dai từ "ngàn" lớp bánh. Nổi bật với hình...
+		</p>
+	</div>
+</div>
+					</div>
+					<div class="swiper-slide" style="width: 335px; margin-right: 20px;">
+						<div class="item-blog">
+	<div class="block-thumb">	
+		<a class="thumb" href="/banh-tart-thom-ngay-khong-the-bo-lo" title="Bánh Tart thơm ngậy không thể bỏ lỡ">
+			<img class="lazyload loaded" src="https://bizweb.dktcdn.net/100/492/035/articles/244507007-6116411681767070-43207.png?v=1692242112913" data-src="https://bizweb.dktcdn.net/100/492/035/articles/244507007-6116411681767070-43207.png?v=1692242112913" alt="Bánh Tart thơm ngậy không thể bỏ lỡ" data-was-processed="true">
+		</a>	
+		<div class="time-post">
+			17/08/2023
+		</div>
+	</div>
+	<div class="block-content">
+		<h3>
+			<a class="line-clamp line-clamp-1" href="/banh-tart-thom-ngay-khong-the-bo-lo" title="Bánh Tart thơm ngậy không thể bỏ lỡ">Bánh Tart thơm ngậy không thể bỏ lỡ</a>
+		</h3>
+		<p class="justify line-clamp line-clamp-3">&nbsp;Tart trứng là loại bánh đường phố nổi tiếng ở Hong Kong được rất nhiều người yêu thích. Không những thế, trong bảng xếp hạng 50 loại món ăn ngon...
+		</p>
+	</div>
+</div>
+					</div>
+					<div class="swiper-slide" style="width: 335px; margin-right: 20px;">
+						<div class="item-blog">
+	<div class="block-thumb">
+		<a class="thumb" href="/banh-dong-lanh-tien-loi-ngon-mieng-de-che-bien" title="Bánh đông lạnh tiện lợi - ngon miệng - Dễ chế biến">
+			<img class="lazyload" src="//bizweb.dktcdn.net/100/492/035/themes/919334/assets/lazy.png?1694745247263" data-src="https://bizweb.dktcdn.net/100/492/035/articles/252489486-6283379875070249-34680.png?v=1692242014303" alt="Bánh đông lạnh tiện lợi - ngon miệng - Dễ chế biến">
+		</a>	
+		<div class="time-post">
+			17/08/2023
+		</div>
+	</div>
+	<div class="block-content">
+		<h3>
+			<a class="line-clamp line-clamp-1" href="/banh-dong-lanh-tien-loi-ngon-mieng-de-che-bien" title="Bánh đông lạnh tiện lợi - ngon miệng - Dễ chế biến">Bánh đông lạnh tiện lợi - ngon miệng - Dễ chế biến</a>
+		</h3>
+		<p class="justify line-clamp line-clamp-3">&nbsp;Bánh đông lạnh đã dần trở thành một sản phẩm quen thuộc cho các Mẹ Đảm sau một thời gian dài giãn cách. Sở dĩ, bánh đông lạnh được nhiều...
+		</p>
+	</div>
+</div>
+					</div>
+					<div class="swiper-slide" style="width: 335px; margin-right: 20px;">
+						<div class="item-blog">
+	<div class="block-thumb">
+		<a class="thumb" href="/banh-ngot-cac-loai-banh-ngot-duoc-ua-chuong-tai-dola" title="Bánh ngọt - Các loại bánh ngọt được ưa chuộng tại Dola">
+			<img class="lazyload" src="//bizweb.dktcdn.net/100/492/035/themes/919334/assets/lazy.png?1694745247263" data-src="https://bizweb.dktcdn.net/100/492/035/articles/banh-ngot-a7e7f12b7e484627ad945b.png?v=1692241907540" alt="Bánh ngọt - Các loại bánh ngọt được ưa chuộng tại Dola">
+		</a>
+		<div class="time-post">
+			17/08/2023
+		</div>
+	</div>
+	<div class="block-content">
+		<h3>
+			<a class="line-clamp line-clamp-1" href="/banh-ngot-cac-loai-banh-ngot-duoc-ua-chuong-tai-dola" title="Bánh ngọt - Các loại bánh ngọt được ưa chuộng tại Dola">Bánh ngọt - Các loại bánh ngọt được ưa chuộng tại Dola</a>
+		</h3>
+		<p class="justify line-clamp line-clamp-3">Đối với những người có niềm đam mê với đồ ngọt thì chắc chắn bánh ngọt đã trở thành một phần không thể thiếu. Những chiếc bánh ngọt hớp hồn...
+		</p>
+	</div>
+</div>
+					</div>
+					<div class="swiper-slide" style="width: 335px; margin-right: 20px;">
+						<div class="item-blog">
+	<div class="block-thumb">
+		<a class="thumb" href="/kham-pha-menu-banh-quy-kho-thom-ngon-dinh-duong-tai-dola" title="Khám phá menu bánh quy khô thơm ngon, dinh dưỡng tại Dola">
+			<img class="lazyload" src="//bizweb.dktcdn.net/100/492/035/themes/919334/assets/lazy.png?1694745247263" data-src="https://bizweb.dktcdn.net/100/492/035/articles/banh-quy-kho-1-2fb1b85ae77d4ca49.png?v=1692241736700" alt="Khám phá menu bánh quy khô thơm ngon, dinh dưỡng tại Dola">
+		</a>
+		<div class="time-post">
+			17/08/2023
+		</div>
+	</div>
+	<div class="block-content">
+		<h3>
+			<a class="line-clamp line-clamp-1" href="/kham-pha-menu-banh-quy-kho-thom-ngon-dinh-duong-tai-dola" title="Khám phá menu bánh quy khô thơm ngon, dinh dưỡng tại Dola">Khám phá menu bánh quy khô thơm ngon, dinh dưỡng tại Dola</a>
+		</h3>
+		<p class="justify line-clamp line-clamp-3">&nbsp;
+Bánh quy khô&nbsp;là món ăn thơm ngon, bổ dưỡng, được nhiều người tiêu dùng ưa thích lựa chọn. Không giống những loại bánh khác, bánh quy đặc biệt với hương...
+		</p>
+	</div>
+</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
