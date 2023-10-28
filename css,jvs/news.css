@@ -1,36 +1,17 @@
+/*font-family: 'Comfortaa', sans-serif;
+font-family: 'Merienda', cursive;
+font-family: 'Playpen Sans', cursive;*/
 body, html {
   height: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.bg-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cupcake-bg.jpg");
-  height: 79%;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
-  filter: blur(5px);
-  
-}
-.bg-text {
-  /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
-  
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  height: 250px;
-  padding: 20px;
-  text-align: center;
-}
+
+
+
+
+
 .boximg {
   height: 200px;
   background: #aaa;
@@ -43,8 +24,5 @@ body, html {
 .box-news{
   background-color: peru;
   border-radius: 10px;
-}
-.footer{
-  background-color: peru;
 }
 
