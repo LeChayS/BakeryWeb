@@ -14,8 +14,8 @@ font-family: 'Playpen Sans', cursive;*/
 	display: flex;
 	flex-wrap: wrap;
 }
-ul{
-	list-style: none;
+.footer ul{
+	list-style: none;	
 }
 .footer{
 	background-color: peru;
@@ -24,6 +24,20 @@ ul{
 .footer-col{
    width: 25%;
    padding: 0px 20px;
+}
+.footer-col p a{
+	text-decoration: none;
+	color: white;
+}
+.footer-col p a:hover{
+	color:gray;
+}
+.footer-col .social-link a{
+	color: white;
+	text-decoration: none;
+}
+.footer-col .social-link a:hover{
+	color: gray;
 }
 .footer-col h4{
 	font-size: 27px;
@@ -99,5 +113,23 @@ ul{
 }
 
 
-
-
+.header{
+	background-color: peru;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.header .item-left{
+	background-color: yellow;
+  }
+  .header .item-center{
+	background-color: red;
+  }
+  .header .item-right{
+	background-color: blue;
+  }
