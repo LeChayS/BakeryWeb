@@ -176,9 +176,9 @@ font-family: 'Playpen Sans', cursive;*/
     border-color: #cd9b32;
     border-width: 10px;
     border-style: double;
-    width: 90%;
+    width: 85%;
     margin: auto;
-    padding: 10px;
+    padding: 20px;
 }
 div.box-img {
     margin: 0;
@@ -273,9 +273,16 @@ div.box-img {
     }
   }
 .box-content{
-    text-align: center;
+  text-align: center;
 }
 
 
 
-
+.news .box-img img{
+  border-radius: 10px;
+  height: 300px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  object-fit: cover;
+  object-position: center;
+}

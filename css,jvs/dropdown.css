@@ -1,0 +1,27 @@
+.mega-box{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    display: none;
+  }
+  .mega-box .content{
+    background-color: black;
+    display: flex;
+    padding: 25px 20px;
+    width: 100%;
+    /* justify-content: center; */
+  }
+.content .row{
+    width: calc(25%-100px);
+    line-height: 45px;
+}
+  .mega-box .content .row ul li a:hover{
+    color:peru;
+  }
+  .mega-box .content .row header a:hover{
+    color:grey;
+  }
+  .mega-box .content .row header a{
+    color: peru;
+  }

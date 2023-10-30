@@ -15,7 +15,7 @@
   <!--css,jvs-->
   <link rel="stylesheet" href="css,jvs/head.css">
   <link rel="stylesheet" href="css,jvs/foot.css">
-  <link rel="stylesheet" href="css,jvs/nav.css">
+  <link rel="stylesheet" href="css,jvs/dropdown.css">
   <script src="css,jvs/headFoot.js" defer></script>
 
   <!--icon-->
@@ -37,7 +37,52 @@
     <ul class="nav-links">
       <i class="fi fi-br-cross navCloseBtn"></i>
       <li><a href="#">Trang chủ</a></li>
-      <li><a href="#" class="dropdown-content">Sản phẩm <i class="fi fi-br-angle-down" style="font-size: 20px;"></i></a></li>
+      <li>
+        <a href="#" class="dd-ct">Sản phẩm <i class="fi fi-br-angle-down" style="font-size: 20px;"></i></a>
+        <div class="mega-box">
+          <div class="content">
+            <div class="row">
+              <header><a href="#" class="dd-title">BÁNH NGỌT</a></header>
+              <ul class="mega-links">
+                <li><a href="#">Bánh bông lan</a></li>
+                <li><a href="#">Bánh su kem</a></li>
+                <li><a href="#">Bánh Mousse</a></li>
+                <li><a href="#">Bánh Tiramisu</a></li>
+                <li><a href="#">Bánh Panna Cotta</a></li>
+                <li><a href="#">Pudding</a></li>
+                <li><a href="#">Bánh Donut</a></li>
+                <li><a href="#">Bánh Tart trứng</a></li>
+              </ul>
+            </div>
+            <div class="row">
+              <header><a href="#" class="dd-title">BÁNH MÌ</a></header>
+              <ul>
+                <li><a href="#">Bánh mì gối</a></li>
+                <li><a href="#">Bánh mì mặn</a></li>
+                <li><a href="#">Bánh mì ngọt</a></li>
+              </ul>
+            </div>
+            <div class="row">
+              <header><a href="#" class="dd-title">BÁNH SINH NHẬT</a></header>
+              <ul>
+                <li><a href="#">Bánh sự kiện</a></li>
+                <li><a href="#">Bánh đặt trước</a></li>
+                <li><a href="#">Bánh có sẵn</a></li>
+                <li><a href="#">Kid</a></li>
+              </ul>
+            </div>
+            <div class="row">
+              <header><a href="#" class="dd-title">BÁNH THEO MÙA</a></header>
+              <ul>
+                <li><a href="#">Bánh quy tết</a></li>
+                <li><a href="#">Bánh trung thu</a></li>
+                <li><a href="#">Bánh quy Noel</a></li>
+                <li><a href="#">Bánh Halloween</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
       <li><a href="#">Tin tức</a></li>
       <li><a href="#">Liên hệ</a></li>
     </ul>
@@ -52,60 +97,9 @@
       <i class="fi fi-br-shopping-cart cart-icon"></i>
     </div>
   </nav>
- 
-  <div class="wrapper">
-    <nav>
-      <input type="checkbox" id="show-search">
-      <input type="checkbox" id="show-menu">
-      <label for="show-menu" class="menu-icon"><i class="fi fi-br-menu-burger"></i></label>
-      <div class="content">
-      <div class="logo"><a href="#">CodingNepal</a></div>
-        <ul class="links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li>
-            <a href="#" class="desktop-link">Features</a>
-            <input type="checkbox" id="show-features">
-            <label for="show-features">Features</label>
-            <ul>
-              <li><a href="#">Drop Menu 1</a></li>
-              <li><a href="#">Drop Menu 2</a></li>
-              <li><a href="#">Drop Menu 3</a></li>
-              <li><a href="#">Drop Menu 4</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#" class="desktop-link">Services</a>
-            <input type="checkbox" id="show-services">
-            <label for="show-services">Services</label>
-            <ul>
-              <li><a href="#">Drop Menu 1</a></li>
-              <li><a href="#">Drop Menu 2</a></li>
-              <li><a href="#">Drop Menu 3</a></li>
-              <li>
-                <a href="#" class="desktop-link">More Items</a>
-                <input type="checkbox" id="show-items">
-                <label for="show-items">More Items</label>
-                <ul>
-                  <li><a href="#">Sub Menu 1</a></li>
-                  <li><a href="#">Sub Menu 2</a></li>
-                  <li><a href="#">Sub Menu 3</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li><a href="#">Feedback</a></li>
-        </ul>
-      </div>
-      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
-      <form action="#" class="search-box">
-        <input type="text" placeholder="Type Something to Search..." required>
-        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
-      </form>
-    </nav>
-  </div>
 
-  <div style="background-color: black; height: 10px;"></div>
+
+  <div style="background-color: black; height: 1000px;"></div>
 
   <footer class="footer">
     <div class="container">
@@ -142,6 +136,8 @@
       </div>
     </div>
   </footer>
+
+
 
 </body>
 </html>
