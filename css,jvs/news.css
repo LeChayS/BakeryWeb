@@ -72,3 +72,6 @@ body, html {
   text-decoration: none;
   color: black;
 }
+.box-img-news.box-text{
+  display: inline-block;
+}
