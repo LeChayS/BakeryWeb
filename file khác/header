@@ -1,4 +1,4 @@
-<!-- <nav class="nav">
+nav class="nav">
     <i class="fi fi-br-menu-burger navOpenBtn"></i>
     <a href="#" class="logo"><img src="media/demologo.jpg" alt="logo" style="height: 80px;" class="rounded-pill"></a>
 
@@ -64,11 +64,8 @@
       <i class="fi fi-br-user user-icon"></i>
       <i class="fi fi-br-shopping-cart cart-icon"></i>
     </div>
-  </nav> -->
+  </nav> 
 
-
-
-  /*
 * {
   margin: 0;
   padding: 0;
@@ -162,8 +159,7 @@
 .nav-links li a:hover{
   color:black;
 }
-*/
-/*
+
 @media screen and (max-width: 1160px) {
   .nav {
     padding: 15px 100px;
@@ -265,4 +261,451 @@
       display: none;
     }
 }
-*/
+const nav = document.querySelector(".nav"),
+  searchIcon = document.querySelector("#searchIcon"),
+  navOpenBtn = document.querySelector(".navOpenBtn"),
+  navCloseBtn = document.querySelector(".navCloseBtn");
+
+searchIcon.addEventListener("click", () => {
+  nav.classList.toggle("openSearch");
+  nav.classList.remove("openNav");
+  if (nav.classList.contains("openSearch")) {
+    return searchIcon.classList.replace("fi-br-search", "fi-br-cross");
+  }
+  searchIcon.classList.replace("fi-br-cross", "fi-br-search");
+});
+
+navOpenBtn.addEventListener("click", () => {
+  nav.classList.add("openNav");
+  nav.classList.remove("openSearch");
+  searchIcon.classList.replace("fi-br-cross", "fi-br-search");
+});
+navCloseBtn.addEventListener("click", () => {
+  nav.classList.remove("openNav");
+});
+
+
+
+
+<!---->
+<header class="header">
+  <div class="container">
+    <div class="row v-center">
+      <div class="header-item item-left">
+        <div class="logo">
+          <a href="#"><img src="media/demologo.jpg" alt="logo" style="height: 70px;" class="rounded-pill"></a>
+        </div>
+      </div>
+      <div class="header-item item-center">
+       <div class="menu-overlay">
+         
+       </div>
+       <div class="menu">
+         <div class="mb-menu-head">
+           <div class="go-back"><i class="fi fi-br-angle-left"></i></div>
+           <div class="cr-menu-title"></div>
+           <div class="close"><i class="fi fi-br-cross"></i></div>
+         </div>
+         <ul class="menu-main">
+           <li>
+             <a href="#">Trang chủ</a>
+           </li>
+           <li class="menu-item-has-children">
+             <a href="#">Sản phẩm <i class="fi fi-br-angle-down" style="font-size: 17px;"></i></a>
+             <div class="sub-menu mega-menu mega-menu-cl-4">
+               <div class="list-item">
+                 <h4 class="title"><a href="#">Bánh ngọt</a></h4>
+                 <ul>
+                   <li><a href="#">Bánh bông lan</a></li>
+                   <li><a href="#">Bánh su kem</a></li>
+                   <li><a href="#">Bánh Mousse</a></li>
+                   <li><a href="#">Bánh Tiramisu</a></li>
+                   <li><a href="#">Bánh Panna Cotta</a></li>
+                   <li><a href="#">Pudding</a></li>
+                   <li><a href="#">Bánh Donut</a></li>
+                   <li><a href="#">Bánh Tart trứng</a></li>
+                 </ul>
+               </div>
+               <div class="list-item">
+                 <h4 class="title"><a href="#">Bánh sinh nhật</a></h4>
+                 <ul>
+                   <li><a href="#">Bánh sự kiện</a></li>
+                   <li><a href="#">Bánh đặt trước</a></li>
+                   <li><a href="#">Bánh có sẵn</a></li>
+                   <li><a href="#">Dành cho trẻ em</a></li>
+                   </ul>
+               </div>
+               <div class="list-item">
+                 <h4 class="title"><a href="#">Bánh theo mùa</a></h4>
+                 <ul>
+                   <li><a href="#">Bánh quy tết</a></li>
+                   <li><a href="#">Bánh trung thu</a></li>
+                   <li><a href="#">Bánh quy Noel</a></li>
+                   <li><a href="#">Bánh Halloween</a></li>
+                   </ul>
+               </div>
+               <div class="list-item">
+                 <h4 class="title"><a href="#">Bánh mì</a></h4>
+                 <ul>
+                   <li><a href="#">Bánh mì gối</a></li>
+                   <li><a href="#">Bánh mì mặn</a></li>
+                   <li><a href="#">Bánh mì ngọt</a></li>
+                   </ul>
+               </div>
+             </div>
+           </li>
+           <li>
+             <a href="#">Tin tức</a>
+           </li>
+           <li>
+             <a href="#">Liên hệ</a>
+           </li>
+         </ul>
+       </div>
+      </div>
+      <div class="header-item item-right">
+       <i class="fi fi-br-search search-icon"></i>
+           <i class="fi fi-br-shopping-cart cart-icon"></i>
+       <i class="fi fi-br-user user-icon"></i>
+       <i class="fi fi-br-menu-burger menu-trigger"></i>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Merienda&family=Playpen+Sans&display=swap');
+body{
+	line-height: 1.5;
+	font-weight: 500;
+	overflow-x: hidden;
+	font-family: 'Comfortaa', sans-serif;
+}
+*{
+	margin:0;
+	box-sizing: border-box;
+}
+:before,:after{
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1400px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.v-center{
+	align-items: center;
+}
+ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+.menu a{
+	text-decoration: none;
+}
+.header{
+	display: block;
+	width: 100%;
+	position: relative;
+	z-index: 99;
+	padding:15px;
+	background-color: transparent;
+	position: fixed;
+	transition: 0.5s;
+}
+.header.sticky{
+	background-color: black;
+	padding: 10px;
+}
+.header .item-left{
+	flex:0 0 17%;
+}
+.header .item-center{
+	flex:0 0 66%;
+}
+.header .item-right{
+	flex:0 0 17%;
+	display: flex;
+	justify-content: flex-end;
+}
+.header .item-right i{
+	color:white;
+	display: inline-block;
+	margin-left: 15px;
+	cursor: pointer;
+	font-size: 25px;
+	transition: color 0.3s ease;
+}
+.header .menu ul li{
+	display: inline-block;
+	line-height: 50px;
+	margin-left: 40px;
+}
+.header .menu ul li a{
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+	position: relative;
+	text-transform: capitalize;
+	transition: color 0.3s ease;
+}
+.header .menu ul li .sub-menu{
+	position: absolute;
+	z-index: 500;
+	background-color: white;
+	box-shadow: -2px 2px 70px -25px rgba(0, 0, 0, 0.3);
+	padding: 20px 30px;
+	transition: all 0.5s ease;
+	margin-top: 20px;
+	opacity: 0;
+	visibility: hidden;
+	border-radius: 5px;
+}
+@media(min-width: 992px){
+	.header .menu ul li.menu-item-has-children:hover .sub-menu{
+	margin-top: 5px;
+	visibility: visible;
+	opacity: 1;
+}
+}
+.header .menu ul li .sub-menu ul li{
+	line-height: 1.5;
+}
+.header .menu ul li .sub-menu ul li a{
+	display: inline-block;
+	padding: 10px 0;
+	font-size: 15px;
+	color: peru;
+	transition: color 0.3s ease;
+	text-decoration: none;
+}
+.header .menu ul li .sub-menu.mega-menu .list-item ul li{
+	/* margin-top: 10px; */
+	left: 0;
+	line-height: 1;
+	display: block;
+	margin-left: 0;
+}
+.header .menu ul li .sub-menu.mega-menu .list-item ul li a{
+	left: 0;
+	padding: 10px 0;
+	display: inline-block;
+	font-size: 20px;
+	color:black;
+	transition: color 0.3s ease;
+}
+.header .menu ul li .sub-menu.mega-menu{
+	left: 50%;
+	transform: translateX(-50%);
+}
+.header .menu ul li .sub-menu.mega-menu-cl-4{
+	max-width: 1100px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 25px 15px;
+}
+.header .menu ul li .sub-menu.mega-menu-cl-4 .list-item{
+	flex: 0 0 25%;
+	padding:0 15px; 
+	/* vertical-align: middle; */
+}
+.header .menu ul li .sub-menu.mega-menu-cl-4 .list-item .title a{
+	font-size: 23px;
+	color: peru;
+	/* font-weight: 700; */
+	font-weight: bolder;
+	line-height: 1.3;
+	padding: 10px 0px 50px 0px;
+}
+.header .item-center .mb-menu-head,
+.header .item-right .menu-trigger{
+	display: none;
+}
+.header .menu ul li .sub-menu.mega-menu-cl-4 .list-item .title a:hover,
+.header .menu ul li:hover a,
+.header .item-right i:hover,
+.header .menu ul li .sub-menu.mega-menu .list-item ul li:hover a
+{
+	color:peru;
+}
+
+@media(max-width:991px){
+	.header .item-center{
+		order: 3;
+		flex: 0 0 100%;
+	}
+	.header .item-left,
+	.header .item-right{
+		flex: 0 0 10%;
+	}
+	.v-center{
+		justify-content: space-between;
+	}
+	.header .item-right .menu-trigger{
+		display: block;
+		margin-right: 20px;
+		cursor: pointer;
+	}
+	.header .item-left{
+		align-items: center;
+	}
+	.header .menu{
+		position: fixed;
+		height: 100%;
+		width: 350px;
+		background-color: white;
+		left: 0;
+		top: 0;
+		height: 100%;
+		overflow: hidden;
+		transform: translate(-100%);
+		transition: all 0.5s ease;
+		z-index: 1099;
+	}
+	.header .menu.active{
+		transform: translate(0%);
+	}
+	.header .menu ul li{
+		line-height: 1;
+		margin: 0;
+		display: block;
+	}
+	.header .item-center ul li a{
+		line-height: 50px;
+		height: 50px;
+		padding: 0 50px 0 15px;
+		/* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+		color: black;
+		display: block;
+	}
+	.header .item-center ul li a i{
+		position: absolute;
+		height: 50px;
+		width: 50px;
+		top: 0;
+		right: 0;
+		text-align: center;
+		line-height: 50px;
+		transform: rotate(-90deg);
+	}
+	.header .item-center .mb-menu-head{
+		display: flex;
+		height: 50px;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		justify-content: space-between;
+		align-items: center;
+		position: relative;
+		position: sticky;
+		background-color: white;
+		z-index: 501;
+	}
+	.header .item-center .mb-menu-head .go-back{
+		height: 50px;
+		width: 50px;
+		cursor: pointer;
+		line-height: 50px;
+		text-align: center;
+		color: black;
+		font-size: 16px;
+	}
+	.header .item-center .mb-menu-head.active .go-back{
+		display: block;
+	}
+	.header .item-center .mb-menu-head .cr-menu-title{
+		font-size: 20px;
+		font-weight: 600;
+		color: black;
+	}
+	.header .item-center .mb-menu-head .close{
+		height: 50px;
+		width: 50px;
+		cursor: pointer;
+		line-height: 50px;
+		text-align: center;
+		color: black;
+		font-size: 16px;
+	}
+	.header .menu .menu-main{
+		height: 100%;
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+	.header .menu ul li .sub-menu.mega-menu,
+	.header .menu ul li .sub-menu{
+		/* background-color: red; */
+		visibility: visible;
+		opacity: 1;
+		position: absolute;
+		box-shadow: none;
+		margin: 0;
+		padding: 15px;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		padding-top: 65px;
+		display: none;
+		max-width: auto;
+		min-width: none;
+		transform: translateX(0%);
+		overflow-y: auto;
+	}
+	.header .menu ul li .sub-menu{
+		display: block;
+	}
+	@keyframes slideLeft{
+		0%{
+			opacity:0;
+			transform: translateX(100%);
+		}
+		100%{
+			opacity:1;
+			transform: translateX(0%);	
+		}
+	}
+	@keyframes slideRight{
+		0%{
+			opacity:1;
+			transform: translateX(0%);
+		}
+		100%{
+			opacity:0;
+			transform: translateX(100%);	
+		}
+	}
+	.header .menu ul li .sub-menu ul li a{
+		line-height: 0;
+	}
+	.header .menu ul li .sub-menu.mega-menu-cl-4 .list-item{
+		flex: 0 0 100%;
+		padding: 0px 0px;
+	}
+	.header .menu ul li .sub-menu.mega-menu-cl-4 .list-item ul li a{
+		display: block;
+		font-size: 18px;
+	}
+	.header .menu ul li .sub-menu.mega-menu-cl-4 .list-item ul{
+		margin-bottom: 15px;
+	}
+	.menu-overlay{
+		position: fixed;
+		background-color: rgba(0, 0, 0, 0.5);
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1098;
+		opacity: 0;
+		visibility: hidden;
+		transition: all 0.5s ease;
+	}
+	.menu-overlay.active{
+		opacity: 1;
+		visibility: visible;
+	}
+}
