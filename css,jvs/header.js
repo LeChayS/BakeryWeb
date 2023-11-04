@@ -1,8 +1,9 @@
+/*scroll*/ 
 window.addEventListener("scroll",function(){
    var header = this.document.querySelector("header");
    header.classList.toggle("sticky",window.scrollY > 0);
 })
-
+/* open search */
 const header = document.querySelector(".popup-search"),
       searchIcon = document.querySelector("#searchIcon"),
       closeIcon = document.querySelector("#closePopup");
@@ -12,9 +13,7 @@ searchIcon.addEventListener("click", () => {
  closeIcon.addEventListener("click", () =>{
    header.classList.remove("openSearch");
  })
-
-
-
+/*mb menu collpase*/
  const menu = document.querySelector(".menu");
  const menuMain = menu.querySelector(".menu-main");
  const goBack = menu.querySelector(".go-back");
@@ -54,7 +53,6 @@ searchIcon.addEventListener("click", () => {
     menu.querySelector(".current-menu-title").innerHTML=menuTitle;
     menu.querySelector(".mobile-menu-head").classList.add("active");
  }
-
  function  hideSubMenu(){  
     subMenu.style.animation = "slideRight 0.5s ease forwards";
     setTimeout(() =>{
@@ -63,7 +61,6 @@ searchIcon.addEventListener("click", () => {
     menu.querySelector(".current-menu-title").innerHTML="";
     menu.querySelector(".mobile-menu-head").classList.remove("active");
  }
- 
  window.onresize = function(){
  	if(this.innerWidth >991){
  		if(menu.classList.contains("active")){
@@ -71,5 +68,29 @@ searchIcon.addEventListener("click", () => {
  		}
 
  	}
- }
+ };
+/*sign in*/
+const signin_btn = document.querySelector(".user-icon"),
+      popup = document.querySelector(".popup"),
+      popup_open = document.querySelector(".popup.open"),
+      popup_inner = document.querySelector(".popup-inner"),
+      closePopup = document.querySelector(".closePopup");
 
+      signin_btn.addEventListener("click", () => {
+         popup.classList.toggle("open");
+       });
+       closePopup.addEventListener("click", () =>{
+         popup.classList.remove("open");
+       });
+
+/*cart*/ 
+var cart_btn = document.querySelector(".cart-icon"),
+      cart_sidebar = document.querySelector(".cart-sidebar"),
+      closeCart = document.querySelector(".close-cart");
+
+      cart_btn.onclick = function(){
+         cart_sidebar.style.right = "0";
+       };
+       closeCart.onclick = function(){
+         cart_sidebar.style.right = "-450px";
+       };
