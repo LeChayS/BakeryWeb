@@ -3,6 +3,17 @@ window.addEventListener("scroll",function(){
    header.classList.toggle("sticky",window.scrollY > 0);
 })
 
+const header = document.querySelector(".popup-search"),
+      searchIcon = document.querySelector("#searchIcon"),
+      closeIcon = document.querySelector("#closePopup");
+searchIcon.addEventListener("click", () => {
+   header.classList.toggle("openSearch");
+ });
+ closeIcon.addEventListener("click", () =>{
+   header.classList.remove("openSearch");
+ })
+
+
 
  const menu = document.querySelector(".menu");
  const menuMain = menu.querySelector(".menu-main");
