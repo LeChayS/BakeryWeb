@@ -1,3 +1,39 @@
 /*font-family: 'Comfortaa', sans-serif;
 font-family: 'Merienda', cursive;
 font-family: 'Playpen Sans', cursive;*/
+.container {
+    position: relative;
+    width: 100%;
+}
+.text-left{
+    background-color: bisque;
+    margin: 20px;
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+    float: left;
+    /* display: inline-block; */
+}
+.name-store{
+    font-family: 'Playpen Sans', cursive;
+    padding: 15px;
+}
+.group-address{
+    display: block;
+    margin: 10px;
+}
+.form-contact{
+    margin: 10px;
+    display: block;
+}
+.group_contact{
+    padding: 10px;
+}
+
+.text-right{
+    /* display: inline-block; */
+    margin-top: 30px;
+    height: auto;
+    width: auto;
+   float: right;
+}

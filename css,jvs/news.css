@@ -17,22 +17,61 @@ body, html {
   width: 200px;
 }
 
-.boximg {
-  height: 200px;
-  background: #aaa;
-  bottom: auto;
-}
 .hot-news{
-  background-color: peru;
-  border-radius: 10px;
+  
+  
+  text-align: center;
+  border-color: #cd9b32;
+  border-width: 10px;
+  border-style: double;
+  width: 85%;
+  margin: 20px;
+  padding: 20px;
 }
-.box-news{
-  background-color: peru;
-  border-radius: 10px;
+.short-news{
+  display: block;
+  width: 150px;
+  height: 300px;
+}
+.link-list{
+
+  text-align: center;
+  border-color: #cd9b32;
+  border-width: 10px;
+  border-style: double;
+  width: 85%;
+  margin: 20px;
+  padding: 20px;
 }
 .row .hot-news img{
   width: 100%;
-  object-fit: cover;
   object-position:center;
 }
+.link{
+  margin: 20px;
+}
+#fm-name{
+  text-align: center;
+  color: black;
+  margin-top: 20px;
+}
 
+/* phần danh sách tin tức */
+.box-news{
+  display: flex;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.list-news{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.fm-news{
+  text-decoration: none;
+  color: black;
+}
+.box-img-news.box-text{
+  display: inline-block;
+}
