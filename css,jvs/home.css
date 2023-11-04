@@ -181,11 +181,12 @@ font-family: 'Playpen Sans', cursive;*/
     padding: 20px;
 }
 div.box-img {
-    margin: 0;
+    margin: 10px;
     /* border: 1px solid #ccc; */
     float: left;
     width: 100%;
-    border-radius: 10px;
+    border-radius:10px;
+   
   }
   div.box-img:hover {
     opacity: 0.7;
@@ -274,6 +275,11 @@ div.box-img {
   }
 .box-content{
   text-align: center;
+}
+.box-content a{
+  font-family: 'Playpen Sans', cursive;
+  text-decoration: none;
+  color: #000;
 }
 
 
