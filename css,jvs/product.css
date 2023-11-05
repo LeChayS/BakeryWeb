@@ -1,7 +1,6 @@
 /*font-family: 'Comfortaa', sans-serif;
 font-family: 'Merienda', cursive;
 font-family: 'Playpen Sans', cursive;*/
-
 body{
 	line-height: 1.5;
 	font-weight: 400;
@@ -23,7 +22,6 @@ ul{
 .row .col-lg-3{
     height: auto;
     max-width: 300px;
-    /* background-color: wheat; */
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -85,48 +83,72 @@ ul{
 }
 .row .product-select .product-filter label{
     margin-bottom: 10px;
+    cursor: pointer;
 }
-.row .col-lg-9 .row .col-lg-3 .img{
-    opacity: 1;
-    display: block;
-    height: 250px;
-    transition: .5s ease;
+
+/*danh sach banh*/
+.row .col-lg-9 .products-list .col-lg-3 .product-bottom h5{
+    font-size: 17px;
+    font-weight: 600;
+}
+.row .col-lg-9 .products-list .col-lg-3 .product-bottom h6{
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+.row .col-lg-9 .products-list .col-lg-3 .product-bottom{
+    margin-top: 5px;
+}
+
+
+
+.row .col-lg-9 .products-list .col-lg-3 .product-top img{
+    height: 200px;
     backface-visibility: hidden;
     border-radius: 10px;
     object-fit: cover;
-    object-position: center;
+    object-position:center;
 }
-.row .col-lg-9 .row .col-lg-3 .img:hover{
-    opacity:0.5;
-}
-.boxicon {
-    opacity: 0;
-    text-align: center;
+.products-list .product-top .pd-img{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
     position: relative;
-    transform: translate(0,-100%);
-    padding-bottom: 15px;
-}
-.boxicon i{
-    position: relative;
-    background-color: #cd9b32;
-    font-size: 30px;
     cursor: pointer;
-    padding: 8px;
-    border-radius: 5px;
-    color: white;
+    border-radius: 10px;
 }
-.col-lg-3:hover .boxicon{
-    transition: all 0.5s linear;
-    opacity:1;
+.products-list .product-top .pd-img .pd-img-child{
+    height: 200px;
+    background-size: cover;
+    object-fit: cover;
+    object-position:center;
+    transition: all 1s ease;
 }
-.boxicon i:hover{
-    
+.products-list .product-top .pd-img:hover .pd-img-child{
+    transform: scale(1.1);
+}
+.row .col-lg-3 .product-top .overlay button:hover{
     opacity: 0.8;
+    transform: scale(1.1);
+  }
+.row .col-lg-3 .product-top .overlay{
+    display: block;
+    position: absolute;
+    opacity:0;
+    display: flex;
+    width: 80px;
+    margin: auto;
 }
-.row .col-lg-9 .row .col-lg-3 .pd-content{
-    margin: 0;
-    
-    /* position: absolute; */
-    text-align: center;
-    background-color: #cd9b32;
+.row .col-lg-3 .product-top .overlay button{
+    background-color: peru;
+    border: none;
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: all 0.5s ease;
+}
+.row .col-lg-9 .products-list .col-lg-3 .product-top:hover .overlay{
+    opacity: 1;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-left: 4.5%;
+    transform: translateY(-120%);
 }
