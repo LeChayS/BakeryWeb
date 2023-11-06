@@ -87,36 +87,15 @@ const signin_btn = document.querySelector(".user-icon"),
 	  });
 
 /*cart*/ 
-// var cart_btn = document.querySelector(".cart-icon"),
-//       cart_sidebar = document.querySelector(".cart-sidebar"),
-//       closeCart = document.querySelector(".close-cart");
+var cart_btn = document.querySelector(".cart-icon");
+var cart_sidebar = document.querySelector(".cart-sidebar");
+var closeCart = document.querySelector(".close-cart");
 
-//       cart_btn.onclick = function(){
-//          cart_sidebar.style.right = "0";
-//        };
-//        closeCart.onclick = function(){
-//          cart_sidebar.style.right = "-450px";
-//        };
+cart_btn.onclick = function(){
+	cart_sidebar.style.right = "0";
+  };
+  closeCart.onclick = function(){
+	cart_sidebar.style.right = "-400px";
+  };
 
-/*dropdown cho icon user*/ 
-/* When the user clicks on the button, 
-		toggle between hiding and showing the dropdown content */
-		// function myFunction() {
-		//   document.getElementById("myDropdown").classList.toggle("show");
-		// }
-		
-		// // Close the dropdown if the user clicks outside of it
-		// window.onclick = function(event) {
-		//   if (!event.target.matches('.dropbtn')) {
-		// 	var dropdowns = document.getElementsByClassName("dropdown-content");
-		// 	var i;
-		// 	for (i = 0; i < dropdowns.length; i++) {
-		// 	  var openDropdown = dropdowns[i];
-		// 	  if (openDropdown.classList.contains('show')) {
-		// 		openDropdown.classList.remove('show');
-		// 	  }
-		// 	}
-		//   }
-		// }
-
-
+     
