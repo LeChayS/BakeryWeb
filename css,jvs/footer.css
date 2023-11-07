@@ -6,9 +6,10 @@ font-family: 'Playpen Sans', cursive;*/
 	padding:0;
 	box-sizing: border-box;
 }
+
 .container{
 	max-width: 1170px;
-	margin:auto;
+	margin:0;
 }
 .row{
 	display: flex;
@@ -113,23 +114,3 @@ font-family: 'Playpen Sans', cursive;*/
 }
 
 
-.header{
-	background-color: peru;
-}
-.container{
-	max-width: 1170px;
-	margin:auto;
-}
-.row{
-	display: flex;
-	flex-wrap: wrap;
-}
-.header .item-left{
-	background-color: yellow;
-  }
-  .header .item-center{
-	background-color: red;
-  }
-  .header .item-right{
-	background-color: blue;
-  }

@@ -34,14 +34,18 @@ font-family: 'Playpen Sans', cursive;*/
 .group_contact{
     padding: 10px;
 }
+ul{
+    list-style: none;
+}
+.group-address ul li{
+    flex: 0 0 100%;
+}
 /* .container .row .group_contact button:hover{
     color: rgb(211, 184, 157);
     background-color: rgb(139, 104, 69);
 } */
-.text-right{
+.text-right .map iframe{
     /* display: inline-block; */
-    margin-top: 30px;
-    height:auto;
-    width: auto;
-
+    height:750px;
+    width: 100%;
 }
