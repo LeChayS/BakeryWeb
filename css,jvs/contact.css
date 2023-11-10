@@ -48,4 +48,6 @@ ul{
     /* display: inline-block; */
     height:750px;
     width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
 }
