@@ -43,6 +43,7 @@ a{
 	background-color: transparent;
 	position: fixed;
 	transition: 0.5s;
+	background-color: black;
 }
 /*sticky nav*/
 .header.sticky{
@@ -378,6 +379,7 @@ a{
 	.header .item-center .menu-main li a{
 		color: black;
 	}
+	
 }
 
 /*pop up search*/
@@ -391,6 +393,7 @@ a{
 	visibility: hidden;
 	transition: all 0.5s ease;
 	margin-top: -500px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 .popup-search.openSearch{
 	opacity: 1;
