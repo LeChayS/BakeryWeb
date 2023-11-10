@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm</title>
+
+   <!--bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!--css,jvs-->
+  <link rel="stylesheet" href="css,jvs/product.css">
+  <link rel="stylesheet" href="css,jvs/bg-news.css">
+
+  <link rel="stylesheet" href="css,jvs/header.css">
+    <script src="css,jvs/header.js" defer></script>
+
+    <link rel="stylesheet" href="css,jvs/footer.css">
+  
+  <!--icon-->
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>  
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+
+  <!--font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Merienda&family=Playpen+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top">
+
+        <div class="popup-search" style="height: 100px;">
+          <div class="container">
+            <div class="search-wrap">
+              <div class="search-box">
+                <input type="text" class="input" placeholder="Tìm kiếm..." style="::placeholder{color: gray};">
+                <div class="btn-search">
+                  <i class="fi fi-br-search search-icon"></i>
+                </div>
+                <div class="btn-close-search">
+                  <i class="fi fi-br-cross" id="closePopup"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+  
+      <header class="header">
+          <div class="container">
+              <div class="row v-center">
+                  <div class="header-item item-left">
+                      <div class="logo">
+                          <a href="TrangChu.html"><img src="media/logo.png" alt="logo" style="height: 70px;" class="rounded-pill"></a>
+                      </div>
+                  </div>
+                  <!-- menu start here -->
+                  <div class="header-item item-center">
+                      <div class="menu-overlay">
+                      </div>
+                      <nav class="menu">
+                          <div class="mobile-menu-head">
+                              <div class="go-back"><i class="fi fi-br-angle-left"></i></div>
+                              <div class="current-menu-title"></div>
+                              <div class="mobile-menu-close"><i class="fi fi-br-cross"></i></div>
+                          </div>
+                          <ul class="menu-main">
+                              <li>
+                                  <a href="TrangChu.html">Trang chủ</a>
+                              </li>
+                              <li class="menu-item-has-children">
+                                  <a href="#">Sản phẩm <i class="fi fi-br-angle-down" style="font-size: 17px;"></i></a>
+                                  <div class="sub-menu mega-menu mega-menu-column-4">
+                                  <div class="list-item">
+                                      <h4 class="title"><a href="SanPham.html">Bánh ngọt</a></h4>
+                                      <ul>
+                                          <li><a href="SanPham.html">Bánh bông lan</a></li>
+                                          <li><a href="SanPham.html">Bánh su kem</a></li>
+                                          <li><a href="SanPham.html">Bánh Mousse</a></li>
+                                          <li><a href="SanPham.html">Bánh Tiramisu</a></li>
+                                          <li><a href="SanPham.html">Bánh Panna Cotta</a></li>
+                                          <li><a href="SanPham.html">Pudding</a></li>
+                                          <li><a href="SanPham.html">Bánh Donut</a></li>
+                                          <li><a href="SanPham.html">Bánh Tart trứng</a></li>
+                                      </ul>
+                                  </div>
+                                  <div class="list-item">
+                                      <h4 class="title"><a href="SanPham.html">Bánh sinh nhật</a></h4>
+                                      <ul>
+                                          <li><a href="SanPham.html">Bánh sự kiện</a></li>
+                                          <li><a href="SanPham.html">Bánh đặt trước</a></li>
+                                          <li><a href="SanPham.html">Bánh có sẵn</a></li>
+                                          <li><a href="SanPham.html">Dành cho trẻ em</a></li>
+                                      </ul>
+                                  </div>
+                                  <div class="list-item">
+                                      <h4 class="title"><a href="SanPham.html">Bánh theo mùa</a></h4>
+                                      <ul>
+                                          <li><a href="SanPham.html">Bánh quy tết</a></li>
+                                          <li><a href="SanPham.html">Bánh trung thu</a></li>
+                                          <li><a href="SanPham.html">Bánh quy Noel</a></li>
+                                          <li><a href="SanPham.html">Bánh Halloween</a></li>
+                                      </ul>
+                                  </div>
+                                  <div class="list-item">
+                                      <h4 class="title"><a href="SanPham.html">Bánh mì</a></h4>
+                                      <ul>
+                                          <li><a href="SanPham.html">Bánh mì gối</a></li>
+                                          <li><a href="SanPham.html">Bánh mì mặn</a></li>
+                                          <li><a href="SanPham.html">Bánh mì ngọt</a></li>
+                                      </ul>
+                                  </div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <a href="TinTuc.html">Tin tức</a>
+                              </li>
+                              <li>
+                                  <a href="LienHe.html">Liên hệ</a>
+                              </li>
+                              <li>
+                                  <div class="menu-log">
+                                      <div class="mn-log">
+                                          <button type="button" class="signin">Đăng nhập</button>
+                                          <button type="button" class="register">Đăng ký</button>
+                                      </div>
+                                      
+                                  </div>
+                              </li>
+                          </ul>
+                      </nav>
+                  </div>
+                  <!-- menu end here -->
+                  <div class="header-item item-right">
+                      <i class="fi fi-br-search search-icon" id="searchIcon"></i>
+                      <i class="fi fi-br-shopping-cart cart-icon"></i>
+                      <i class="fi fi-br-user user-icon"></i>
+                      <!-- mobile menu trigger -->
+                      <div class="mobile-menu-trigger">
+                          <span></span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </header>
+  
+      <div class="popup">
+          <div class="popup-inner">
+              <div class="img">
+                  <img src="media/cupcake-bg.jpg" alt="popup">
+              </div>
+              <div class="text">
+                  <div class="closePopup"><i class="fi fi-br-cross"></i></div>
+                  <div class="group">
+                      <div class="log">
+                          <button type="button" class="signin">Đăng nhập</button>
+                          <h3><span>Hoặc</span></h3>
+                          <button type="button" class="register">Đăng ký</button>
+                      </div>
+                      <h3><span>Hoặc đăng nhập bằng</span></h3>
+                      <div class="social-md">
+                          <a href="#"><img src="media/social-media/001-facebook.png" alt="fb"></a>
+                          <a href="#"><img src="media/social-media/002-google.png" alt="fb"></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+      <div class="cart-sidebar">
+          <span class="close-cart"><i class="fi fi-br-cross"></i></span>
+          <div class="cart-title">
+              <h4>Giỏ hàng</h4>
+          </div>
+          <div class="cart-body">
+              <div class="cart-item">
+                  <div class="img">
+                      <img src="media/Bánh ngọt/Cupcake/Candy Cupcakes.jpg" alt="banh">
+                  </div>
+                  <div class="text">
+                      <span>Số lượng: x1</span>
+                      <h5>Candy Cupcakes</h5>
+                      <h6>25.000đ</h6>
+                  </div>
+              </div>
+              <div class="cart-item">
+                  <div class="img">
+                      <img src="media/Bánh ngọt/Cupcake/Candy Cupcakes.jpg" alt="banh">
+                  </div>
+                  <div class="text">
+                      <span>Số lượng: </span>
+                      <h5>Candy Cupcakes</h5>
+                      <h6>25.000đ</h6>
+                  </div>
+              </div>
+              <div class="cart-item">
+                  <div class="img">
+                      <img src="media/Bánh ngọt/Cupcake/Candy Cupcakes.jpg" alt="banh">
+                  </div>
+                  <div class="text">
+                      <span>Số lượng: </span>
+                      <h5>Candy Cupcakes</h5>
+                      <h6>25.000đ</h6>
+                  </div>
+              </div>
+              <div class="button-pay">
+                  <button type="button">Thanh toán</button>
+              </div>
+          </div>
+      </div>
+      </div>
+
+    <div class="bg-news">
+        <h1>Sản phẩm</h1>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+
+          <div class="col-lg-3">
+            <div class="product-select">
+
+              <div class="all-product">
+                <div class="title-pd"><h5>Danh mục sản phẩm</h5></div>
+                <div class="all-pro">
+                    <ul>
+                    <li>
+                      <a href="#">Bánh ngọt <i class="fi fi-br-angle-down" style="font-size: 17px;"></i></a>
+                      <ul>
+                        <li><a href="#">Bánh bông lan</a></li>
+                        <li><a href="#">Bánh su kem</a></li>
+                        <li><a href="#">Bánh Mousse</a></li>
+                        <li><a href="#">Bánh Tiramisu</a></li>
+                        <li><a href="#">Bánh Panna Cotta</a></li>
+                        <li><a href="#">Pudding</a></li>
+                        <li><a href="#">Bánh Donut</a></li>
+                        <li><a href="#">Bánh Tart trứng</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Bánh sinh nhật <i class="fi fi-br-angle-down" style="font-size: 17px;"></i></a>
+                      <ul>
+                        <li><a href="#">Bánh sự kiện</a></li>
+                        <li><a href="#">Bánh đặt trước</a></li>
+                        <li><a href="#">Bánh có sẵn</a></li>
+                        <li><a href="#">Dành cho trẻ em</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Bánh theo mùa <i class="fi fi-br-angle-down" style="font-size: 17px;"></i></a>
+                      <ul>
+                        <li><a href="#">Bánh quy tết</a></li>
+                        <li><a href="#">Bánh trung thu</a></li>
+                        <li><a href="#">Bánh quy Noel</a></li>
+                        <li><a href="#">Bánh Halloween</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Bánh mì <i class="fi fi-br-angle-down" style="font-size: 17px;"></i></a>
+                      <ul>
+                        <li><a href="#">Bánh mì gối</a></li>
+                        <li><a href="#">Bánh mì mặn</a></li>
+                        <li><a href="#">Bánh mì ngọt</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                
+              </div>
+              
+              <div class="product-filter">
+                <div class="title-pd"><h5>Mức giá</h5></div>
+                <div class="list-price">
+                  <label class="list-group-item" type="checkbox" value="">
+                    <input class="check" type="checkbox" value="">
+                    Dưới 10.000đ
+                  </label>
+                  <label class="list-group-item" type="checkbox" value="">
+                    <input class="check" type="checkbox" value="">
+                    Từ 10.000đ - 50.000đ
+                  </label>
+                  <label class="list-group-item" type="checkbox" value="">
+                    <input class="check" type="checkbox" value="">
+                    Từ 50.000đ - 100.000đ
+                  </label>
+                  <label class="list-group-item" type="checkbox" value="">
+                    <input class="check" type="checkbox" value="">
+                    Từ 100.000đ - 200.000đ
+                  </label>
+                  <label class="list-group-item" type="checkbox" value="">
+                    <input class="check" type="checkbox" value="">
+                    Từ 200.000đ - 300.000đ
+                  </label>
+                  <label class="list-group-item" type="checkbox" value="">
+                    <input class="check" type="checkbox" value="">
+                    Từ 300.000đ - 500.000đ
+                  </label>
+                  <label class="list-group-item" type="checkbox" value="">
+                    <input class="check" type="checkbox" value="">
+                    Từ 500.000đ - 1 triệu
+                  </label>
+                  <label class="list-group-item" type="checkbox" value="">
+                    <input class="check" type="checkbox" value="">
+                    Trên 1 triệu
+                  </label>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="col-lg-9">
+
+            <div class="row products-list">
+
+              <div class="col-lg-3">
+                <div class="product-top">
+                  
+                  <div class="pd-img">
+                    <div class="pd-img-child">
+                      <img src="media/Bánh ngọt/Bông lan/Bánh bông lan cuộn chà bông.jpg" alt="list-ck" class="img" style="width:100%" />
+                    </div>
+                  </div>
+
+                  <div class="overlay">
+                    <button type="button" class="btn btn-secondary" title="quick shop">
+                      <i class="fi fi-br-search search-icon"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="quick shop">
+                      <i class="fi fi-br-shopping-cart cart-icon"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="product-bottom text-center">
+                  <h5>Bánh bông lan cuộn chà bông</h5>
+                  <h6>50.000đ</h6>
+                </div>
+              </div>
+              
+              <div class="col-lg-3">
+                <div class="product-top">
+                  <div class="pd-img">
+                    <div class="pd-img-child">
+                      <img src="media/Bánh ngọt/Bông lan/Bánh bông lan cuộn chà bông.jpg" alt="list-ck" class="img" style="width:100%" />
+                    </div>
+                  </div>
+                  <div class="overlay">
+                    <button type="button" class="btn btn-secondary" title="quick shop">
+                      <i class="fi fi-br-search search-icon"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="quick shop">
+                      <i class="fi fi-br-shopping-cart cart-icon"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="product-bottom text-center">
+                  <h5>Bánh bông lan cuộn chà bông</h5>
+                  <h6>50.000đ</h6>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="product-top">
+                  <div class="pd-img">
+                    <div class="pd-img-child">
+                      <img src="media/Bánh ngọt/Bông lan/Bánh bông lan cuộn chà bông.jpg" alt="list-ck" class="img" style="width:100%" />
+                    </div>
+                  </div>
+                  <div class="overlay">
+                    <button type="button" class="btn btn-secondary" title="quick shop">
+                      <i class="fi fi-br-search search-icon"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="quick shop">
+                      <i class="fi fi-br-shopping-cart cart-icon"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="product-bottom text-center">
+                  <h5>Bánh bông lan cuộn chà bông</h5>
+                  <h6>50.000đ</h6>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="product-top">
+                  <div class="pd-img">
+                    <div class="pd-img-child">
+                      <img src="media/Bánh ngọt/Bông lan/Bánh bông lan cuộn chà bông.jpg" alt="list-ck" class="img" style="width:100%" />
+                    </div>
+                  </div>
+                  <div class="overlay">
+                    <button type="button" class="btn btn-secondary" title="quick shop">
+                      <i class="fi fi-br-search search-icon"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="quick shop">
+                      <i class="fi fi-br-shopping-cart cart-icon"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="product-bottom text-center">
+                  <h5>Bánh bông lan cuộn chà bông</h5>
+                  <h6>50.000đ</h6>
+                </div>
+              </div>
+
+            </div>
+        
+            <div class="row products-list">
+
+              <div class="col-lg-3">
+                <div class="product-top">
+                  <div class="pd-img">
+                    <div class="pd-img-child">
+                      <img src="media/Bánh ngọt/Bông lan/Bánh bông lan cuộn chà bông.jpg" alt="list-ck" class="img" style="width:100%" />
+                    </div>
+                  </div>
+                  <div class="overlay">
+                    <button type="button" class="btn btn-secondary" title="quick shop">
+                      <i class="fi fi-br-search search-icon"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="quick shop">
+                      <i class="fi fi-br-shopping-cart cart-icon"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="product-bottom text-center">
+                  <h5>Bánh bông lan cuộn chà bông</h5>
+                  <h6>50.000đ</h6>
+                </div>
+              </div>
+              
+              <div class="col-lg-3">
+                <div class="product-top">
+                  <div class="pd-img">
+                    <div class="pd-img-child">
+                      <img src="media/Bánh ngọt/Bông lan/Bánh bông lan cuộn chà bông.jpg" alt="list-ck" class="img" style="width:100%" />
+                    </div>
+                  </div>
+                  <div class="overlay">
+                    <button type="button" class="btn btn-secondary" title="quick shop">
+                      <i class="fi fi-br-search search-icon"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="quick shop">
+                      <i class="fi fi-br-shopping-cart cart-icon"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="product-bottom text-center">
+                  <h5>Bánh bông lan cuộn chà bông</h5>
+                  <h6>50.000đ</h6>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="product-top">
+                  <div class="pd-img">
+                    <div class="pd-img-child">
+                      <img src="media/Bánh ngọt/Bông lan/Bánh bông lan cuộn chà bông.jpg" alt="list-ck" class="img" style="width:100%" />
+                    </div>
+                  </div>
+                  <div class="overlay">
+                    <button type="button" class="btn btn-secondary" title="quick shop">
+                      <i class="fi fi-br-search search-icon"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="quick shop">
+                      <i class="fi fi-br-shopping-cart cart-icon"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="product-bottom text-center">
+                  <h5>Bánh bông lan cuộn chà bông</h5>
+                  <h6>50.000đ</h6>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="product-top">
+                  <div class="pd-img">
+                    <div class="pd-img-child">
+                      <img src="media/Bánh ngọt/Bông lan/Bánh bông lan cuộn chà bông.jpg" alt="list-ck" class="img" style="width:100%" />
+                    </div>
+                  </div>
+                  <div class="overlay">
+                    <button type="button" class="btn btn-secondary" title="quick shop">
+                      <i class="fi fi-br-search search-icon"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="quick shop">
+                      <i class="fi fi-br-shopping-cart cart-icon"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="product-bottom text-center">
+                  <h5>Bánh bông lan cuộn chà bông</h5>
+                  <h6>50.000đ</h6>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row products-list">
+
+              <div class="col-lg-3">
+                <div class="product-top">
+                  <div class="pd-img">
+                    <div class="pd-img-child">
+                      <img src="media/Bánh ngọt/Bông lan/Bánh bông lan cuộn chà bông.jpg" alt="list-ck" class="img" style="width:100%" />
+                    </div>
+                  </div>
+                  <div class="overlay">
+                    <button type="button" class="btn btn-secondary" title="quick shop">
+                      <i class="fi fi-br-search search-icon"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="quick shop">
+                      <i class="fi fi-br-shopping-cart cart-icon"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="product-bottom text-center">
+                  <h5>Bánh bông lan cuộn chà bông</h5>
+                  <h6>50.000đ</h6>
+                </div>
+              </div>
+              
+              <div class="col-lg-3">
+                <div class="product-top">
+                  <div class="pd-img">
+                    <div class="pd-img-child">
+                      <img src="media/Bánh ngọt/Bông lan/Bánh bông lan cuộn chà bông.jpg" alt="list-ck" class="img" style="width:100%" />
+                    </div>
+                  </div>
+                  <div class="overlay">
+                    <button type="button" class="btn btn-secondary" title="quick shop">
+                      <i class="fi fi-br-search search-icon"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="quick shop">
+                      <i class="fi fi-br-shopping-cart cart-icon"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="product-bottom text-center">
+                  <h5>Bánh bông lan cuộn chà bông</h5>
+                  <h6>50.000đ</h6>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="product-top">
+                  <div class="pd-img">
+                    <div class="pd-img-child">
+                      <img src="media/Bánh ngọt/Bông lan/Bánh bông lan cuộn chà bông.jpg" alt="list-ck" class="img" style="width:100%" />
+                    </div>
+                  </div>
+                  <div class="overlay">
+                    <button type="button" class="btn btn-secondary" title="quick shop">
+                      <i class="fi fi-br-search search-icon"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="quick shop">
+                      <i class="fi fi-br-shopping-cart cart-icon"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="product-bottom text-center">
+                  <h5>Bánh bông lan cuộn chà bông</h5>
+                  <h6>50.000đ</h6>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="product-top">
+                  <div class="pd-img">
+                    <div class="pd-img-child">
+                      <img src="media/Bánh ngọt/Bông lan/Bánh bông lan cuộn chà bông.jpg" alt="list-ck" class="img" style="width:100%" />
+                    </div>
+                  </div>
+                  <div class="overlay">
+                    <button type="button" class="btn btn-secondary" title="quick shop">
+                      <i class="fi fi-br-search search-icon"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="quick shop">
+                      <i class="fi fi-br-shopping-cart cart-icon"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="product-bottom text-center">
+                  <h5>Bánh bông lan cuộn chà bông</h5>
+                  <h6>50.000đ</h6>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="bottom">
+        <div class="footer">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-3 dm-menu">
+                      <h3>Danh mục</h3>
+                      <a href="TrangChu.html">Trang chủ</a>
+                      <a href="SanPham.html">Sản phẩm</a>
+                      <a href="TinTuc.html">Tin tức</a>
+                      <a href="LienHe.html">Liên hệ</a>
+                  </div>
+                  <div class="col-lg-6 mail-logo">
+                      <div class="logo-content">
+                          <img src="media/logo.png" alt="logo" style="height: 130px;">
+                          <p>Đăng ký nhận thông tin sản phẩm mới nhất, tin khuyến mãi và nhiều hơn nữa.</p>
+                      </div>
+                      <form action="">
+                          <input type="email" name="" id="" placeholder="Nhập email của bạn" required>
+                          <br>
+                          <button type="submit">Đăng ký</button>
+                      </form>
+                  </div>
+                  <div class="col-lg-3 social">
+                      <h3>Thông tin liên hệ</h3>
+                      <p>Địa chỉ: <a href="#">828 Sư Vạn Hạnh, Phường 13, Quận 10, TP. HCM</a></p>
+                      <p>Điện thoại: <a href="#">(028) 3863 2052</a> - <a href="#">(028) 3862 9232</a></p>
+                      <p>Email: <a href="#">contact@huflit.edu.vn</a></p> 
+                      <div class="social-link">
+                          <a href="https://www.facebook.com/huflit.edu.vn" target="_blank"><i class="fi fi-brands-facebook"></i></a>
+                          <a href="#" target="_blank"><i class="fi fi-brands-youtube"></i></a>
+                          <a href="#" target="_blank"><i class="fi fi-brands-tik-tok"></i></a>
+                      </div>
+                </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+</body>
+</html>

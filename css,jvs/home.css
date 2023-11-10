@@ -71,13 +71,13 @@ body{
 
 
 /*phần bán chạy*/
+.bestSell .container{
+  padding: 0;
+}
 .row .col-lg-3 .product-bottom h5{
   font-size: 20px;
   font-weight: 600;
   font-family: 'Comfortaa', sans-serif;
-}
-.row .col-lg-3 .product-bottom{
-  margin-top: 10px;
 }
 .row .col-lg-3 .product-top img{
   height: 280px;
@@ -105,20 +105,22 @@ body{
   display: block;
   position: absolute;
   opacity:0;
-  display: flex;
-  width: 80px;
+  visibility: hidden;
+  width: auto;
   margin: auto;
+  position: relative;
+  bottom: 30px;
 }
 .row .col-lg-3 .product-top .overlay button{
   background-color: peru;
   border: none;
   border-radius: 50%;
-  margin-right: 5px;
+  /* margin-right: 5px; */
   transition: all 0.5s ease;
   font-size: 20px;
 }
 .bestSell .row{
-  margin-bottom: 20px;
+  padding: 0 20px 0 20px;
 }
 .bestSell{
   text-align: center;
@@ -131,20 +133,20 @@ body{
 }
 .row .col-lg-3 .product-top:hover .overlay{
   opacity: 1;
-  position: absolute;
+  visibility: visible;
   transition: all 0.5s ease;
-  margin-left: 9%;
-  transform: translateY(-130%);
+  transform: translateY(-55%);
 }
 .row .col-lg-3 .product-top .pd-img:hover .pd-img-child,
 .row .col-lg-3 .product-top .overlay button:hover{
   transform: scale(1.1);
   opacity: 0.8;
 }
-/* .row .col-lg-3 .product-top .overlay button:hover {
-  opacity: 0.8;
-  transform: scale(1.1);
-} */
+.row .col-lg-3 .product-bottom{
+  position: relative;
+  top: -30px;
+  justify-content: center;
+}
 
 
 
