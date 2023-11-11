@@ -1,4 +1,5 @@
-﻿use TheBakeryWeb
+﻿CREATE DATABASE TheBakeryWeb
+use TheBakeryWeb
 CREATE TABLE style
 (
   codeStyle CHAR(5) NOT NULL,
@@ -164,11 +165,11 @@ INSERT INTO product VALUES('TT000',N'Bánh Tart Trứng',null,50000,null,null,N'
 
 --1
 INSERT INTO product VALUES('SW001',N'Bánh sandwich bơ sữa',null,50000,null,null,N'Còn hàng','PL002');
-INSERT INTO product VALUES('SW001',N'Bánh sandwich mix hạt óc chó',null,50000,null,null,N'Còn hàng','PL002');
-INSERT INTO product VALUES('SW001',N'Bánh sandwich mix nho khô',null,50000,null,null,N'Còn hàng','PL002');
-INSERT INTO product VALUES('SW001',N'Bánh sandwich nguyên cám',null,50000,null,null,N'Còn hàng','PL002');
-INSERT INTO product VALUES('SW001',N'Bánh sandwich trà xanh',null,50000,null,null,N'Còn hàng','PL002');
-
+INSERT INTO product VALUES('SW002',N'Bánh sandwich mix hạt óc chó',null,50000,null,null,N'Còn hàng','PL002');
+INSERT INTO product VALUES('SW003',N'Bánh sandwich mix nho khô',null,50000,null,null,N'Còn hàng','PL002');
+INSERT INTO product VALUES('SW004',N'Bánh sandwich nguyên cám',null,50000,null,null,N'Còn hàng','PL002');
+INSERT INTO product VALUES('SW005',N'Bánh sandwich trà xanh',null,50000,null,null,N'Còn hàng','PL002');
+BỊ LỖI
 --2
 INSERT INTO product VALUES('BM001',N'Bánh mì mặn',null,50000,null,null,N'Còn hàng','PL002');
 INSERT INTO product VALUES('BM002',N'Bánh mì xúc xích',null,50000,null,null,N'Còn hàng','PL002');
