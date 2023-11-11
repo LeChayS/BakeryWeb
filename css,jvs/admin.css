@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+
+}
+.col-lg-5{
+    background-color: aqua;
+}
+.container{
+    display: inline;
+}
