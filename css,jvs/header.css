@@ -695,24 +695,32 @@ a{
 	top: 40px;
 	cursor: pointer;
 }
+
+
+
+
 .cart-sidebar .button-pay{
-	margin-top: 10px;
-	width: 350px;
-	border-top:2px solid rgba(0, 0, 0, 0.5);
-	padding-top: 10px;
+    margin-top: 10px;
+    width: 350px;
+    border-top: 2px solid black;
+    display:flex;
+    justify-content:center;
 }
-.cart-sidebar button{
-	background-color: peru;
-	border: none;
-	color: white;
-	height: 50px;
-	width: 340px;
-	margin-left: 5px;
-	margin-right: 5px;
-	border-radius: 10px;
-	font-weight: bold;
+
+.cart-sidebar .button-pay {
+    background-color: peru;
+    border: none;
+    color: white;
+    height: 50px;
+    width: 340px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    font-weight: bold;
 }
-.cart-sidebar .button-pay button:hover{
-	color: black;
-	background-color: rgb(204, 147, 91);
+
+.cart-sidebar .cart-body .button-pay a{
+    color:white;
+    text-decoration:none;
+	padding: 15px 90px 15px 90px;
 }
