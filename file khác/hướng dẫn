@@ -1,0 +1,8 @@
+up code lên
+git add . 
+git commit -m " "
+git push (master)
+git push origin master (guess)
+
+lấy code xuống
+git pull
